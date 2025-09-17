@@ -1,3 +1,7 @@
+html, body {
+    touch-action: manipulation;
+}
+
 body {
     background-image: url("pexels-cottonbro-4753987.jpg");
     background-size: cover;
@@ -80,4 +84,8 @@ button {
     transform: scale(0.97);
 }
 
+button, .weight-tab {
+    font-size: 16px; /* or larger */
+    touch-action: manipulation; /* disables double-tap zoom */
+}
 
